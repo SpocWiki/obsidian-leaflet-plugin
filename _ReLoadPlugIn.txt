@@ -1,0 +1,3 @@
+await app.plugins.disablePlugin("obsidian-leaflet-plugin");
+await app.plugins.enablePlugin("obsidian-leaflet-plugin");
+app.plugins.plugins["obsidian-leaflet-plugin"].constructor
